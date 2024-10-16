@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <div className="container mt-4">
-      <h2>My Projects</h2>
+      <h2 className="text-bg-warning">My Projects</h2>
       <div className="row">
         {projects.map((project, index) => (
           <div className="col-lg-3 col-md-6 mb-4" key={index}>

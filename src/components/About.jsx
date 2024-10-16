@@ -16,7 +16,7 @@ const About = () => {
       <br/>
       <br/>
       <br/>
-      <h1 id="About">About Me</h1>
+      <h1 id="About" className="container mt-4 text-bg-warning">About Me</h1>
 
       {/* START THE FEATURETTES */}
       <hr className="featurette-divider" />
