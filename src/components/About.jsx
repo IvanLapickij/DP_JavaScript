@@ -4,17 +4,16 @@ import dpd2 from "../assets/images/dpd2.jpg";
 import dpd3 from "../assets/images/dpd3.jpg";
 
 const About = () => {
-  // Style for the semi-transparent background behind the text
   const textBackgroundStyle = {
     backgroundColor: 'rgba(255, 255, 255, 0.7)',
-    padding: '20px', 
-    borderRadius: '10px', 
+    padding: '20px',
+    borderRadius: '10px',
   };
 
   return (
     <div className="container marketing">
       <h1 id="About">About Me</h1>
-      
+
       {/* START THE FEATURETTES */}
       <hr className="featurette-divider" />
 
@@ -48,12 +47,13 @@ const About = () => {
               </h2>
               <p className="lead">
                 I worked as a Software Developer Intern at DPD Ireland, Athlone from January 2024 to September 2024. During this time, I participated in daily standups and wrote project reports. Key projects included:
-                <ul>
-                  <li><b>Collections API:</b> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
-                  <li><b>Authorize API:</b> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
-                  <li>Experience in testing, debugging, and working with SQL and NoSQL databases.</li>
-                </ul>
               </p>
+              {/* Move the <ul> outside of <p> */}
+              <ul>
+                <li><b>Collections API:</b> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
+                <li><b>Authorize API:</b> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
+                <li>Experience in testing, debugging, and working with SQL and NoSQL databases.</li>
+              </ul>
             </div>
           </div>
           <div className="col-md-5 order-md-1">
