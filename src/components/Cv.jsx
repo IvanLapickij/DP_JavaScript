@@ -8,10 +8,32 @@ const Cv = () => {
   };
 
   return (
-    <div>
+    <div style={{ textAlign: 'center', padding: '50px 0' }}> {/* Center content */}
       <h2>My CV</h2>
+
       {/* Toggle Button */}
-      <button onClick={handleToggle}>
+      <button
+        onClick={handleToggle}
+        style={{
+          padding: '15px 30px',
+          fontSize: '24px',
+          backgroundColor: '#007bff',
+          color: 'white',
+          border: 'none',
+          borderRadius: '10px',
+          cursor: 'pointer',
+          boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+          transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+        }}
+        onMouseOver={(e) => {
+          e.target.style.transform = 'scale(1.05)';
+          e.target.style.boxShadow = '0px 6px 12px rgba(0, 0, 0, 0.3)';
+        }}
+        onMouseOut={(e) => {
+          e.target.style.transform = 'scale(1)';
+          e.target.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+      >
         {showCv ? 'Hide CV' : 'Show CV'}
       </button>
 
@@ -22,6 +44,7 @@ const Cv = () => {
           width="100%"
           height="600px"
           title="CV PDF"
+          style={{ marginTop: '20px' }}
         ></iframe>
       )}
     </div>

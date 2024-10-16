@@ -24,13 +24,7 @@ const Projects = () => {
       title: "MoveSafe Analytics",
       description: " Year 4 project  (Currently working on) - My objective is to collect data from football matches using a drone with the goal of developing insights to help prevent them.",
       link: "https://github.com/IvanLapickij/Project4",
-      image: "",
-    },
-    {
-      title: "Project 5",
-      description: "This is a description of Project 5.",
-      link: "https://example.com/project5",
-      image: "https://via.placeholder.com/150",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/drone1.png?token=GHSAT0AAAAAACYGNFX3AK7MQS6SGDSMCINYZYPCUYQ",
     },
     // Add more projects as needed
   ];

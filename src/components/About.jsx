@@ -12,6 +12,10 @@ const About = () => {
 
   return (
     <div className="container marketing">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <h1 id="About">About Me</h1>
 
       {/* START THE FEATURETTES */}
