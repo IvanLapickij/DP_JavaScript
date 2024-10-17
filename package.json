@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
-     "homepage": "https://ivanlapickij.github.io/DP_JavaScript"
+     "homepage": "https://ivanlapickij.com/DP_JavaScript"
   },
   
   "dependencies": {
