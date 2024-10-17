@@ -6,19 +6,19 @@ const Projects = () => {
       title: "Rustic Roots Restaurant",
       description: "Frontend local restaurant website which was builded & deployed with React, TypeScript, and Bootstrap",
       link: "https://github.com/IvanLapickij/rusticroots",
-      image: "src/assets/images/restaurant1.png",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/restaurant1.png",
     },
     {
       title: "Cherry Chocolate",
       description: "Cherry Chocolate is a dynamic web application built with PHP and AJAX for seamless interactivity, leveraging POSTMAN for efficient API testing and MySQL as the backend database for data management.",
       link: "https://github.com/IvanLapickij/ChocolateCherry",
-      image: "src\assets\images\cherrychoc1.png",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/cherrychoc1.png",
     },
     {
       title: "Youtube Data Archive",
       description: " A Python-based application that archives and stores data by scraping information from YouTube based on an inserted link. The application retrieves and archives song data through a user-friendly GUI interface.",
       link: "https://github.com/IvanLapickij/Youtube-Data-Archive?tab=readme-ov-file",
-      image: "src\assets\images\youtube1.png",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/youtube1.png",
     },
     {
       title: "MoveSafe Analytics",

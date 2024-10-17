@@ -54,8 +54,9 @@ const About = () => {
               </p>
               {/* Move the <ul> outside of <p> */}
               <ul>
-                <li><b>Collections API:</b> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
-                <li><b>Authorize API:</b> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
+                <li><b></b> Was actively participating in a meeting , succesfully expressed my opinion & that way commited to group project.</li>
+                <li><b>Project 1</b> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
+                <li><b>Project 2</b> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
                 <li>Experience in testing, debugging, and working with SQL and NoSQL databases.</li>
               </ul>
             </div>

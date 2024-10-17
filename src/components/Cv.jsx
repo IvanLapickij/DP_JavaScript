@@ -39,14 +39,15 @@ const Cv = () => {
 
       {/* Conditionally render the CV iframe */}
       {showCv && (
-        <iframe
-          src="https://github.com/IvanLapickij/DP_JavaScript/blob/main/src/assets/docs/Digital_Portfolio_Ivan_Lapickij_A0027326.pdf"
-          width="100%"
-          height="600px"
-          title="CV PDF"
-          style={{ marginTop: '20px' }}
-        ></iframe>
-      )}
+  <iframe
+    src="https://docs.google.com/document/d/1abFh66a58Y8dmXxQKMe0ylQt9-ZjpTwB5IU2Jr7yZdg/edit?tab=t.0#heading=h.5x0d5h95i329"
+    width="100%"
+    height="600px"
+    title="CV PDF"
+    style={{ marginTop: '20px' }}
+  ></iframe>
+)}
+
     </div>
   );
 };
