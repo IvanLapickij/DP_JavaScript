@@ -1,55 +1,54 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Cv = () => {
   const [showCv, setShowCv] = useState(false);
 
+  useEffect(() => {
+    // Scroll down slightly when CV is shown
+    if (showCv) {
+      setTimeout(() => {
+        window.scrollBy({
+          top: 100,
+          behavior: 'smooth'
+        });
+      }, 100);
+    }
+  }, [showCv]);
+
   const handleToggle = () => {
     setShowCv(!showCv);
-    if (!showCv) window.scrollBy({ top: 200, behavior: 'smooth' });
   };
 
   return (
-    <div style={{ textAlign: 'center', padding: '50px 0' }} id="Cv">
-      <h2>My CV</h2>
-      <button
-        onClick={handleToggle}
-        style={{
-          padding: '10px 20px',
-          fontSize: '18px',
-          backgroundColor: '#007bff',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer',
-        }}
-      >
-        {showCv ? 'Hide CV' : 'Show CV'}
-      </button>
+    <div className="max-w-5xl mx-auto px-4 py-12" id="Cv">
+      <h2 className="text-center text-3xl font-bold mb-8 bg-yellow-400 py-2">
+        My CV
+      </h2>
+
+      <div className="flex justify-center mb-8">
+        <button
+          onClick={handleToggle}
+          className="px-8 py-4 text-xl text-white bg-blue-600 rounded-lg 
+                   shadow-lg transition-all duration-200 ease-in-out
+                   hover:transform hover:scale-105 hover:shadow-xl
+                   focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          {showCv ? 'Hide CV' : 'Show CV'}
+        </button>
+      </div>
+
       {showCv && (
-        <div style={{ margin: '20px auto', maxWidth: '90%' }}>
-          <iframe
-            src="..\assets\docs\Resume_Ivan_Lapickij.pdf"
-            width="100%"
-            height="600px"
-            title="Resume"
-            style={{ border: '1px solid #ddd', borderRadius: '5px' }}
-          />
-          <a
-            href="..\assets\docs\Resume_Ivan_Lapickij.pdf"
-            download
-            style={{
-              display: 'block',
-              marginTop: '10px',
-              padding: '10px 15px',
-              fontSize: '16px',
-              backgroundColor: '#28a745',
-              color: '#fff',
-              textDecoration: 'none',
-              borderRadius: '5px',
-            }}
+        <div className="w-full border-4 border-gray-200 rounded-lg overflow-hidden">
+          <object
+            data="Resume_Ivan_Lapickij.pdf"
+            type="application/pdf"
+            className="w-full h-screen"
           >
-            Download CV
-          </a>
+            <p className="p-4 text-center text-gray-600">
+              If you are seeing this message, your browser doesn't support PDF viewing.
+              Please <a href="Resume_Ivan_Lapickij.pdf" className="text-blue-600 hover:underline">download the PDF</a> instead.
+            </p>
+          </object>
         </div>
       )}
     </div>
