@@ -1,56 +1,53 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Cv = () => {
-  const [showCv, setShowCv] = useState(false);
-
-  useEffect(() => {
-    // Scroll down slightly when CV is shown
-    if (showCv) {
-      setTimeout(() => {
-        window.scrollBy({
-          top: 100,
-          behavior: 'smooth'
-        });
-      }, 100);
-    }
-  }, [showCv]);
+  const [showCv, setShowCv] = useState(false); // State to toggle CV visibility
 
   const handleToggle = () => {
-    setShowCv(!showCv);
+    setShowCv(!showCv); // Toggle the state
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-12" id="Cv">
-      <h2 className="text-center text-3xl font-bold mb-8 bg-yellow-400 py-2">
-        My CV
-      </h2>
+    <div style={{ textAlign: 'center', padding: '50px 0' }} id='Cv'> {/* Center content */}
+      <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
-      <div className="flex justify-center mb-8">
-        <button
-          onClick={handleToggle}
-          className="px-8 py-4 text-xl text-white bg-blue-600 rounded-lg 
-                   shadow-lg transition-all duration-200 ease-in-out
-                   hover:transform hover:scale-105 hover:shadow-xl
-                   focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          {showCv ? 'Hide CV' : 'Show CV'}
-        </button>
-      </div>
+      {/* Toggle Button */}
+      <button
+        onClick={handleToggle}
+        style={{
+          padding: '15px 30px',
+          fontSize: '24px',
+          backgroundColor: '#007bff',
+          color: 'white',
+          border: 'none',
+          borderRadius: '10px',
+          cursor: 'pointer',
+          boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+          transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+        }}
+        onMouseOver={(e) => {
+          e.target.style.transform = 'scale(1.05)';
+          e.target.style.boxShadow = '0px 6px 12px rgba(0, 0, 0, 0.3)';
+        }}
+        onMouseOut={(e) => {
+          e.target.style.transform = 'scale(1)';
+          e.target.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.2)';
+        }}
+      >
+        {showCv ? 'Hide CV' : 'Show CV'}
+      </button>
 
+      {/* Conditionally render the CV iframe */}
       {showCv && (
-        <div className="w-full border-4 border-gray-200 rounded-lg overflow-hidden">
-          <object
-            data="Resume_Ivan_Lapickij.pdf"
-            type="application/pdf"
-            className="w-full h-screen"
-          >
-            <p className="p-4 text-center text-gray-600">
-              If you are seeing this message, your browser doesn't support PDF viewing.
-              Please <a href="Resume_Ivan_Lapickij.pdf" className="text-blue-600 hover:underline">download the PDF</a> instead.
-            </p>
-          </object>
-        </div>
-      )}
+  <iframe
+    src="https://drive.google.com/drive/folders/1-vdDrJHOUc5-1kDFVRKsvf70KrOixuRl"
+    width="100%"
+    height="600px"
+    title="CV PDF"
+    style={{ marginTop: '20px' }}
+  ></iframe>
+)}
+
     </div>
   );
 };
