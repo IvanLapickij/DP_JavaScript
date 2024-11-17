@@ -37,7 +37,14 @@ const Projects = () => {
       title: "Data Mining & Machine Learning",
       description: "This is my fourth year of Data mining and machine learning project, for which I chose two datasets: “Abalone” and “Employees”. Then I utilized them using linear regression and decision Tree techniques to predict target variables and test the quality of the prediction. I will also present a workflow and documentation supported by the CrispDM data mining process, including images and references.",
       link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
-      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/parcelway.png",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/dmml.png",
+    },
+    ,
+    {
+      title: "Digital portfolio",
+      description: "Digital portfolio - is website that i designed and connected via DNS, hosting provider and my repository. I created this project using React-Javasript with VS code. Dinamic background - on reload background is different.",
+      link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/dp1.png?token=GHSAT0AAAAAACYGNFX27DA3NDGRBFUEAU6EZYPDJTQ",
     },
     // Add more projects as needed
   ];
