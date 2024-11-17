@@ -41,14 +41,14 @@ const Cv = () => {
       {showCv && (
         <div style={{ margin: '20px auto', maxWidth: '90%' }}>
           <iframe
-            src="https://drive.google.com/drive/folders/1-vdDrJHOUc5-1kDFVRKsvf70KrOixuRl"
+            src="https://drive.google.com/file/d/1h8XuncM42hR1thMgnSofIx3LDDaoi2hq/view?usp=sharing"
             width="100%"
             height="600px"
-            title="CV PDF"
+            title="Resume_Ivan_Lapickij.pdf"
             style={{ border: '1px solid #ddd', borderRadius: '8px' }}
           ></iframe>
           <a
-            href="https://drive.google.com/drive/folders/1-vdDrJHOUc5-1kDFVRKsvf70KrOixuRl"
+            href="https://drive.google.com/file/d/1h8XuncM42hR1thMgnSofIx3LDDaoi2hq/view?usp=sharing"
             download="My_CV.pdf"
             style={{
               display: 'inline-block',
