@@ -8,7 +8,7 @@ const Cv = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', padding: '50px 0' }}> {/* Center content */}
+    <div style={{ textAlign: 'center', padding: '50px 0' }} id='Cv'> {/* Center content */}
       <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
       {/* Toggle Button */}

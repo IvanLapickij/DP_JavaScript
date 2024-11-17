@@ -46,11 +46,18 @@ const Projects = () => {
       link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/digitalportfolio.png",
     },
+    ,
+    {
+      title: "Monsters",
+      description: "Third year Python GUI project where i implemented learned techniques to buttons where you can level up your monster, change avatar and release a fireball!.",
+      link: "https://github.com/IvanLapickij/Python-GUI-Monster",
+      image: "https://private-user-images.githubusercontent.com/116425938/284595168-166a7783-b394-4c59-9637-6e276a398e84.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE4NTgzNjQsIm5iZiI6MTczMTg1ODA2NCwicGF0aCI6Ii8xMTY0MjU5MzgvMjg0NTk1MTY4LTE2NmE3NzgzLWIzOTQtNGM1OS05NjM3LTZlMjc2YTM5OGU4NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTExN1QxNTQxMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZGY2ZTBiZmFkMWIyMzQ0YzE0NWIyNGQwOWM0MTQxMzUwMzQ3ZGY1NWUzYTk0OTVhNTFiMzkwZGZjYzU5ZDg4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.8fUjz07JUghpJ5BWYViBAmlNhctxyU1x4ED6vx2txqk",
+    },
     // Add more projects as needed
   ];
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4" id='Projects'>
       <h2 className="text-bg-warning">My Projects</h2>
       <div className="row">
         {projects.map((project, index) => (
