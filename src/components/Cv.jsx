@@ -28,14 +28,14 @@ const Cv = () => {
       {showCv && (
         <div style={{ margin: '20px auto', maxWidth: '90%' }}>
           <iframe
-            src="src/assets/docs/Resume_Ivan_Lapickij.pdf"
+            src="..\assets\docs\Resume_Ivan_Lapickij.pdf"
             width="100%"
             height="600px"
             title="Resume"
             style={{ border: '1px solid #ddd', borderRadius: '5px' }}
           />
           <a
-            href="src/assets/docs/Resume_Ivan_Lapickij.pdf"
+            href="..\assets\docs\Resume_Ivan_Lapickij.pdf"
             download
             style={{
               display: 'block',
