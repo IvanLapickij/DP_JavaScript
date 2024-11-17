@@ -31,7 +31,13 @@ const Projects = () => {
       title: "Parcel Way",
       description: "A database management system is essential for every business. To demonstrate my knowledge and skills in database management, I developed ParcelWay, a database management system designed for a parcel delivery company that is ease to use. In the following sections, I will introduce the workflow and implemented functionalities.",
       link: "https://github.com/IvanLapickij/ParcelWay",
-      image: "src/assets/images/parcelway.png",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/parcelway.png",
+    },
+    {
+      title: "Data Mining & Machine Learning",
+      description: "This is my fourth year of Data mining and machine learning project, for which I chose two datasets: “Abalone” and “Employees”. Then I utilized them using linear regression and decision Tree techniques to predict target variables and test the quality of the prediction. I will also present a workflow and documentation supported by the CrispDM data mining process, including images and references.",
+      link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/parcelway.png",
     },
     // Add more projects as needed
   ];
