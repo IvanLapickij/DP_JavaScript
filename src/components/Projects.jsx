@@ -44,7 +44,7 @@ const Projects = () => {
       title: "Digital portfolio",
       description: "Digital portfolio - is website that i designed and connected via DNS, hosting provider and my repository. I created this project using React-Javasript with VS code. Dinamic background - on reload background is different.",
       link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
-      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/dp1.png?token=GHSAT0AAAAAACYGNFX27DA3NDGRBFUEAU6EZYPDJTQ",
+      image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/digitalportfolio.png",
     },
     // Add more projects as needed
   ];
