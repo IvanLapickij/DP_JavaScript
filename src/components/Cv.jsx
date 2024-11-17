@@ -40,7 +40,7 @@ const Cv = () => {
       {/* Conditionally render the CV iframe */}
       {showCv && (
   <iframe
-    src="https://github.com/IvanLapickij/DP_JavaScript/blob/main/src/components/Resume_Ivan_Lapickij.pdf"
+    src="Resume_Ivan_Lapickij.pdf"
     width="100%"
     height="600px"
     title="CV PDF"
