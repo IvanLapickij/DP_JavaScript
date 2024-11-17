@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
 
 const Cv = () => {
-  const [showCv, setShowCv] = useState(false); // State to toggle CV visibility
+  const [showCv, setShowCv] = useState(false);
 
   const handleToggle = () => {
-    setShowCv(!showCv); // Toggle the state
+    setShowCv(!showCv);
   };
 
   return (
-    <div style={{ textAlign: 'center', padding: '50px 0' }} id='Cv'> {/* Center content */}
+    <div style={{ 
+      textAlign: 'center', 
+      padding: '50px 0',
+      maxWidth: '1200px',
+      margin: '0 auto'
+    }} id='Cv'>
       <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
-      {/* Toggle Button */}
       <button
         onClick={handleToggle}
         style={{
@@ -37,17 +41,42 @@ const Cv = () => {
         {showCv ? 'Hide CV' : 'Show CV'}
       </button>
 
-      {/* Conditionally render the CV iframe */}
       {showCv && (
-  <iframe
-    src="Resume_Ivan_Lapickij.pdf"
-    width="100%"
-    height="600px"
-    title="CV PDF"
-    style={{ marginTop: '20px' }}
-  ></iframe>
-)}
-
+        <div style={{
+          marginTop: '20px',
+          padding: '20px',
+          width: '100%',
+        }}>
+          <object
+            data="Resume_Ivan_Lapickij.pdf"
+            type="application/pdf"
+            style={{
+              width: '100%',
+              height: '800px',
+              border: '1px solid #ccc',
+              borderRadius: '4px',
+            }}
+          >
+            <p style={{
+              padding: '20px',
+              textAlign: 'center',
+              color: '#666',
+            }}>
+              Unable to display PDF file. 
+              <a 
+                href="Resume_Ivan_Lapickij.pdf"
+                style={{
+                  color: '#007bff',
+                  textDecoration: 'underline',
+                  marginLeft: '5px'
+                }}
+              >
+                Download instead
+              </a>
+            </p>
+          </object>
+        </div>
+      )}
     </div>
   );
 };
