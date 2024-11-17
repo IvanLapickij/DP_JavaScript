@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
 
 const Cv = () => {
-  const [showCv, setShowCv] = useState(false);
+  const [showCv, setShowCv] = useState(false); // State to toggle CV visibility
 
   const handleToggle = () => {
-    setShowCv(!showCv);
+    setShowCv(!showCv); // Toggle the state
   };
 
   return (
-    <div style={{ 
-      textAlign: 'center', 
-      padding: '50px 0',
-      maxWidth: '1200px',
-      margin: '0 auto'
-    }} id='Cv'>
+    <div style={{ textAlign: 'center', padding: '50px 0' }}> {/* Center content */}
       <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
+      {/* Toggle Button */}
       <button
         onClick={handleToggle}
         style={{
@@ -41,42 +37,17 @@ const Cv = () => {
         {showCv ? 'Hide CV' : 'Show CV'}
       </button>
 
+      {/* Conditionally render the CV iframe */}
       {showCv && (
-        <div style={{
-          marginTop: '20px',
-          padding: '20px',
-          width: '100%',
-        }}>
-          <object
-            data="Resume_Ivan_Lapickij.pdf"
-            type="application/pdf"
-            style={{
-              width: '100%',
-              height: '800px',
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-            }}
-          >
-            <p style={{
-              padding: '20px',
-              textAlign: 'center',
-              color: '#666',
-            }}>
-              Unable to display PDF file. 
-              <a 
-                href="https://drive.google.com/file/d/1h8XuncM42hR1thMgnSofIx3LDDaoi2hq/view"
-                style={{
-                  color: '#007bff',
-                  textDecoration: 'underline',
-                  marginLeft: '5px'
-                }}
-              >
-                Download instead
-              </a>
-            </p>
-          </object>
-        </div>
-      )}
+  <iframe
+    src="https://docs.google.com/document/d/1abFh66a58Y8dmXxQKMe0ylQt9-ZjpTwB5IU2Jr7yZdg/edit?tab=t.0#heading=h.5x0d5h95i329"
+    width="100%"
+    height="600px"
+    title="CV PDF"
+    style={{ marginTop: '20px' }}
+  ></iframe>
+)}
+
     </div>
   );
 };
