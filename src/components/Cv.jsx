@@ -64,7 +64,7 @@ const Cv = () => {
             }}>
               Unable to display PDF file. 
               <a 
-                href="Resume_Ivan_Lapickij.pdf"
+                href="https://drive.google.com/file/d/1h8XuncM42hR1thMgnSofIx3LDDaoi2hq/view"
                 style={{
                   color: '#007bff',
                   textDecoration: 'underline',
