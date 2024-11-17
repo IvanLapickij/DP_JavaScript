@@ -23,8 +23,8 @@ function App() {
       <AnimatedBackground animationName={animationName} />
       <Navbar />
       <About />
-      <Cv />
       <Projects />
+      <Cv />
     </>
   );
 }
