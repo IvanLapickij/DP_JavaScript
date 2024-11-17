@@ -41,14 +41,14 @@ const Cv = () => {
       {showCv && (
         <div style={{ margin: '20px auto', maxWidth: '90%' }}>
           <iframe
-            src="https://example.com/your-cv.pdf"
+            src="https://drive.google.com/drive/folders/1-vdDrJHOUc5-1kDFVRKsvf70KrOixuRl"
             width="100%"
             height="600px"
             title="CV PDF"
             style={{ border: '1px solid #ddd', borderRadius: '8px' }}
           ></iframe>
           <a
-            href="https://example.com/your-cv.pdf"
+            href="https://drive.google.com/drive/folders/1-vdDrJHOUc5-1kDFVRKsvf70KrOixuRl"
             download="My_CV.pdf"
             style={{
               display: 'inline-block',
