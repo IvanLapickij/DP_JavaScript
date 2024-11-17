@@ -26,6 +26,13 @@ const Projects = () => {
       link: "https://github.com/IvanLapickij/Project4",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/drone1.png?token=GHSAT0AAAAAACYGNFX3AK7MQS6SGDSMCINYZYPCUYQ",
     },
+    ,
+    {
+      title: "Parcel Way",
+      description: "A database management system is essential for every business. To demonstrate my knowledge and skills in database management, I developed ParcelWay, a database management system designed for a parcel delivery company that is ease to use. In the following sections, I will introduce the workflow and implemented functionalities.",
+      link: "https://github.com/IvanLapickij/ParcelWay",
+      image: "src/assets/images/parcelway.png",
+    },
     // Add more projects as needed
   ];
 
