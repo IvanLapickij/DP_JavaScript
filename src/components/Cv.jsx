@@ -8,7 +8,7 @@ const Cv = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', padding: '50px 0' }} id='Cv'> {/* Center content */}
+    <div style={{ textAlign: 'center', padding: '50px 0' }} id="Cv"> {/* Center content */}
       <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
       {/* Toggle Button */}
@@ -39,15 +39,33 @@ const Cv = () => {
 
       {/* Conditionally render the CV iframe */}
       {showCv && (
-  <iframe
-    src="https://docs.google.com/document/d/1abFh66a58Y8dmXxQKMe0ylQt9-ZjpTwB5IU2Jr7yZdg/edit?tab=t.0#heading=h.5x0d5h95i329"
-    width="100%"
-    height="600px"
-    title="CV PDF"
-    style={{ marginTop: '20px' }}
-  ></iframe>
-)}
-
+        <div style={{ margin: '20px auto', maxWidth: '90%' }}>
+          <iframe
+            src="https://example.com/your-cv.pdf"
+            width="100%"
+            height="600px"
+            title="CV PDF"
+            style={{ border: '1px solid #ddd', borderRadius: '8px' }}
+          ></iframe>
+          <a
+            href="https://example.com/your-cv.pdf"
+            download="My_CV.pdf"
+            style={{
+              display: 'inline-block',
+              marginTop: '15px',
+              padding: '10px 20px',
+              fontSize: '18px',
+              backgroundColor: '#28a745',
+              color: 'white',
+              textDecoration: 'none',
+              borderRadius: '5px',
+              boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+            }}
+          >
+            Download CV
+          </a>
+        </div>
+      )}
     </div>
   );
 };
