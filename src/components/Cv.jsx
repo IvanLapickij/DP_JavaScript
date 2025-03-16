@@ -8,11 +8,11 @@ const Cv = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', padding: '50px 0',marginLeft:'50px', marginRight: '50px'}} id='Cv'> {/* Center content */}
+    <div style={{ textAlign: 'center', padding: '50px 0', marginLeft:'50px', marginRight: '50px'}} id='Cv'>
       <h2 className="container mt-4 text-bg-warning">My CV</h2>
 
       {/* Toggle Button */}
-      <button
+      <button 
         onClick={handleToggle}
         style={{
           padding: '15px 30px',
@@ -21,33 +21,22 @@ const Cv = () => {
           color: 'white',
           border: 'none',
           borderRadius: '10px',
-          cursor: 'pointer',
-          boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-          transition: 'transform 0.2s ease, box-shadow 0.2s ease',
-        }}
-        onMouseOver={(e) => {
-          e.target.style.transform = 'scale(1.05)';
-          e.target.style.boxShadow = '0px 6px 12px rgba(0, 0, 0, 0.3)';
-        }}
-        onMouseOut={(e) => {
-          e.target.style.transform = 'scale(1)';
-          e.target.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.2)';
+          cursor: 'pointer'
         }}
       >
         {showCv ? 'Hide CV' : 'Show CV'}
       </button>
 
-      {/* Conditionally render the CV iframe */}
+      {/* Conditionally render the CV iframe for local PDF */}
       {showCv && (
-  <iframe
-    src="https://docs.google.com/document/d/1abFh66a58Y8dmXxQKMe0ylQt9-ZjpTwB5IU2Jr7yZdg/edit?tab=t.0#heading=h.5x0d5h95i329"
-    width="100%"
-    height="600px"
-    title="CV PDF"
-    style={{ marginTop: '20px' }}
-  ></iframe>
-)}
-
+        <iframe
+          src="Resume_Ivan_Lapickij.pdf"
+          width="100%"
+          height="600px"
+          title="Resume Ivan Lapickij"
+          style={{ marginTop: '20px' }}
+        ></iframe>
+      )}
     </div>
   );
 };
