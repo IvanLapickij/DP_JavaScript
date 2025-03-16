@@ -20,12 +20,13 @@ const Projects = () => {
       link: "https://github.com/IvanLapickij/Youtube-Data-Archive?tab=readme-ov-file",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/youtube1.png",
     },
-    {
-      title: "MoveSafe Analytics",
-      description: " Year 4 project  (Currently working on) - My objective is to collect data from football matches using a drone with the goal of developing insights to help prevent them.",
-      link: "/MSA_IMAGE1.png",
-      image: "public/MSA_IMAGE1.png",
-    },
+      {
+        title: "MoveSafe Analytics",
+        description: "Year 4 project (Currently working on) - My objective is to collect data from football matches using a drone with the goal of developing insights to help prevent them.",
+        link: "/MSA1.png",
+        image: "/MSA1.png",
+      }
+      
     ,
     {
       title: "Parcel Way",
