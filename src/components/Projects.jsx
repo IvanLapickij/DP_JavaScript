@@ -3,6 +3,12 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      title: "Only Robots",
+      description: "This is a 4th-year college project developed in Java using Spring Boot, designed as part of the 'Service Oriented Architecture' course. The aim is to demonstrate the microservices architecture and advanced RESTful API techniques learned throughout the program.",
+      link: "https://github.com/IvanLapickij/SOA4-TechShop",
+      image: "https://raw.githubusercontent.com/IvanLapickij/SOA4-TechShop/refs/heads/main/Tshop_Customer/Tshop_Customer/src/main/resources/static/images/screenshot1.png?token=GHSAT0AAAAAADASP5HQMTJW75724DN6Z4PEZ6ZOZUA",
+    },
+    {
       title: "Rustic Roots Restaurant",
       description: "Frontend local restaurant website which was builded & deployed with React, TypeScript, and Bootstrap",
       link: "https://github.com/IvanLapickij/rusticroots",
@@ -54,6 +60,7 @@ const Projects = () => {
       link: "https://github.com/IvanLapickij/Python-GUI-Monster",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/monsters.png",
     },
+    
     // Add more projects as needed
   ];
 
