@@ -28,7 +28,7 @@ const Projects = () => {
     },
       {
         title: "MoveSafe Analytics",
-        description: "Year 4 project (Currently working on) - My objective is to collect data from football matches using a drone with the goal of developing insights to help prevent them.",
+        description: "Year 4 project - The Move Safe Analytics (MSA) application is committed to reducing injury risks by using advanced AI-powered drone technology to monitor player interactions in real time. ",
         link: "https://github.com/IvanLapickij/MoveSafe_Analytics",
         image: "/MSA1.png",
       }
