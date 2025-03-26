@@ -60,6 +60,12 @@ const Projects = () => {
       link: "https://github.com/IvanLapickij/Python-GUI-Monster",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/monsters.png",
     },
+    {
+      title: "An Analysis of Client/Server Security Techniques",
+      description: "This is my 4th year software security assignment report where I compare and contrast different cryptographic methods to ensure authentication, integrity and confidentiality in client/server settings. ",
+      link: "https://github.com/IvanLapickij/Security4_Project",
+      image: "https://raw.githubusercontent.com/IvanLapickij/Security4_Project/refs/heads/main/images/security.png",
+    }
     
     // Add more projects as needed
   ];
