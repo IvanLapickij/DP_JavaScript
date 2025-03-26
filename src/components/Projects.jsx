@@ -29,7 +29,7 @@ const Projects = () => {
       {
         title: "MoveSafe Analytics",
         description: "Year 4 project (Currently working on) - My objective is to collect data from football matches using a drone with the goal of developing insights to help prevent them.",
-        link: "/MSA1.png",
+        link: "https://github.com/IvanLapickij/MoveSafe_Analytics",
         image: "/MSA1.png",
       }
       
