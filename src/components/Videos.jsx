@@ -8,30 +8,27 @@ const Videos = () => {
   };
   const videos = [
     {
-      title: "Digital Portfolio Demo",
-      description: "Current website overview",
-      link: "https://go.screenpal.com/watch/cZXbFcnVFvt",
-    },
-    {
-      title: "Sax Parser Demo",
-      description: "Sax Parser project overview",
-      link: "https://go.screenpal.com/watch/c0f0lKVzbGC",
-    },
-    {
-      title: "Jujutsu Demo",
-      description: "Mobile application based on Anime Jujutsu Kaisen",
-      link: "https://go.screenpal.com/watch/c0euq4VaQH6",
-    },
-    {
       title: "Youtube Demo",
       description: "Youtube archive project overview",
       link: "https://go.screenpal.com/watch/c0e3YFV4LYa",
     },
     {
+      title: "Digital Portfolio Demo",
+      description: "Current website overview",
+      link: "https://go.screenpal.com/watch/cZXbFcnVFvt",
+    },
+    ,
+    {
+      title: "Jujutsu Demo",
+      description: "Mobile application based on Anime Jujutsu Kaisen",
+      link: "https://go.screenpal.com/watch/c0euq4VaQH6",
+    },
+    
+    {
       title: "Monsters Demo",
       description: "Monsters project overview",
       link: "https://go.screenpal.com/watch/c3X00hVUag2",
-    },
+    }
   ];
 
   return (
