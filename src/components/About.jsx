@@ -50,19 +50,16 @@ const About = () => {
                 <span className="text-body-secondary">9-month Internship at DPD Ireland</span>
               </h2>
               <p className="lead">
-                I worked as a Software Developer Intern at DPD Ireland, Athlone from January 2024 to September 2024. During this time, I participated in daily standups and wrote project reports. Key projects included:
+                I worked as a Software Developer Intern at DPD Ireland, Athlone from January 2024 to September 2024. During this time, I participated in daily standups and wrote project reports. Key Tasks included:
               </p>
               {/* Move the <ul> outside of <p> */}
               <ul>
                 <li><b></b> Was actively participating in a meeting , succesfully expressed my opinion & that way commited to group project.</li>
                 <li> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
                 <li> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
-                <li> Fixed reported bug by using debugging in Java code</li>
                 <li> Completed course "Fundamentals of secure software" and practice using WebGoat</li>
-                <li> Proffesionaly filling up doccumentation like reports, current status of project, tasks done and reporting bugs using project management platform</li>
+                <li> Effectively managing and documenting project progress—including detailed reports, current status updates, completed tasks, and bug tracking—using an integrated project management platform and Office 365.</li>
                 <li> <b>...To hear more about my placement and experience please contact me directly</b></li>
-                
-                <li> </li>
               </ul>
             </div>
           </div>
@@ -83,7 +80,7 @@ const About = () => {
                 <span className="text-body-secondary">Why I Chose Programming</span>
               </h2>
               <p className="lead">
-              I am driven by curiosity and a passion for constant growth, aiming to sharpen my skills, achieve significant milestones in my career, and make a meaningful impact. I chose programming for its challenges, collaborative nature, and potential for innovation. My vision is to simplify technology, enabling people to focus on what truly matters in life.
+              I am driven by curiosity and a passion for constant growth, aiming to sharpen my skills, achieve significant milestones in my career, and make a meaningful impact. I chose programming for its challenges, collaborative nature, and potential for innovation. My vision is to innovate, optimize, and simplify technology so that people can focus on what truly matters in life..
               </p>
             </div>
           </div>
