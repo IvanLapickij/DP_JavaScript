@@ -1,4 +1,5 @@
 import React from 'react';
+import './Videos.css'; // Make sure this path is correct relative to your file structure
 
 const Videos = () => {
   const videos = [
@@ -36,34 +37,19 @@ const Videos = () => {
       <div className="row">
         {videos.map((video, index) => (
           <div className="col-lg-6 col-md-6 mb-4" key={index}>
-            <div className="card h-100">
+            <div className="card">
               <div className="card-body">
                 <h5 className="card-title">{video.title}</h5>
                 <p className="card-text">{video.description}</p>
               </div>
-              {/* Responsive video container */}
-              <div
-                className="video-wrapper"
-                style={{
-                  position: 'relative',
-                  paddingBottom: '56.25%', // 16:9 ratio
-                  height: 0,
-                  overflow: 'hidden',
-                }}
-              >
+              <div className="video-wrapper">
                 <iframe
                   src={video.link}
                   title={video.title}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                  }}
+                  style={{ width: '100%', height: '100%' }}
                 ></iframe>
               </div>
             </div>

@@ -1,0 +1,12 @@
+.video-wrapper {
+    position: relative;
+    height: 300px; /* Fixed height for larger screens */
+    overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .video-wrapper {
+      height: 250px; /* Slightly smaller height for mobile devices */
+    }
+  }
+  
