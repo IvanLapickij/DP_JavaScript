@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Videos = () => {
+  const textBackgroundStyle = {
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    padding: '20px',
+    borderRadius: '10px',
+  };
   const videos = [
     {
       title: "Digital Portfolio Demo",
@@ -51,25 +56,13 @@ const Videos = () => {
             width: 100%;
             height: 100%;
           }
-          .video-title {
-            background-color: #ffffff;
-            padding: 0.5rem;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
-          }
-          .video-description {
-            background-color: #ffffff;
-            padding: 1rem;
-            border-radius: 4px;
-            margin-top: 0.5rem;
-          }
         `}
       </style>
       <div className="container mt-4" id="Videos">
         <h2 className="text-bg-warning">My Videos</h2>
         {videos.map((video, index) => (
           <div key={index} style={{ marginBottom: '2rem' }}>
-            <h5 className="video-title">{video.title}</h5>
+            <h5 style={textBackgroundStyle} className="video-title">{video.title}</h5>
             <div className="video-container">
               <iframe
                 src={video.link}
@@ -79,7 +72,7 @@ const Videos = () => {
                 allowFullScreen
               />
             </div>
-            <div className="video-description">
+            <div style={textBackgroundStyle}>
               <p>{video.description}</p>
             </div>
           </div>
