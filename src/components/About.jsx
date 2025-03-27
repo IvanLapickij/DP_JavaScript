@@ -55,9 +55,14 @@ const About = () => {
               {/* Move the <ul> outside of <p> */}
               <ul>
                 <li><b></b> Was actively participating in a meeting , succesfully expressed my opinion & that way commited to group project.</li>
-                <li><b>Project 1</b> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
-                <li><b>Project 2</b> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
-                <li>Experience in testing, debugging, and working with SQL and NoSQL databases.</li>
+                <li> Applied software testing techniques to create automated tests with 100% coverage using Postman API.</li>
+                <li> Migrated code from Spring MVC to Spring Boot for API endpoints.</li>
+                <li> Fixed reported bug by using debugging in Java code</li>
+                <li> Completed course "Fundamentals of secure software" and practice using WebGoat</li>
+                <li> Proffesionaly filling up doccumentation like reports, current status of project, tasks done and reporting bugs using project management platform</li>
+                <li> <b>...To hear more about my placement and experience please contact me directly</b></li>
+                
+                <li> </li>
               </ul>
             </div>
           </div>
