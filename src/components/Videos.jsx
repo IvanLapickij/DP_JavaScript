@@ -3,7 +3,7 @@ import React from 'react';
 const Videos = () => {
   const videos = [
     {
-      title: "Digital Porfolio Demo",
+      title: "Digital Portfolio Demo",
       description: "Current website overview",
       link: "https://go.screenpal.com/watch/cZXbFcnVFvt",
     },
@@ -14,7 +14,7 @@ const Videos = () => {
     },
     {
       title: "Jujutsu Demo",
-      description: "Mobile application based on Anime Jujustsu Kaisen",
+      description: "Mobile application based on Anime Jujutsu Kaisen",
       link: "https://go.screenpal.com/watch/c0euq4VaQH6",
     },
     {
@@ -27,7 +27,7 @@ const Videos = () => {
       description: "Monsters project overview",
       link: "https://go.screenpal.com/watch/c3X00hVUag2",
     },
-    //  add more video objects here if needed.
+    // Add more video objects here if needed.
   ];
 
   return (
@@ -41,12 +41,29 @@ const Videos = () => {
                 <h5 className="card-title">{video.title}</h5>
                 <p className="card-text">{video.description}</p>
               </div>
-              <div className="embed-responsive embed-responsive-16by9">
+              {/* Responsive video container */}
+              <div
+                className="video-wrapper"
+                style={{
+                  position: 'relative',
+                  paddingBottom: '56.25%', // 16:9 ratio
+                  height: 0,
+                  overflow: 'hidden',
+                }}
+              >
                 <iframe
-                  className="embed-responsive-item"
                   src={video.link}
-                  allowFullScreen
                   title={video.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                  }}
                 ></iframe>
               </div>
             </div>
