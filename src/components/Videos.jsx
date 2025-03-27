@@ -41,7 +41,7 @@ const Videos = () => {
           }
           @media (max-width: 768px) {
             .video-container {
-              padding-bottom: 75%; /* Increase height by one third on small screens */
+              padding-bottom: 100%; /* Increased height for small screens */
             }
           }
           .video-container iframe {
@@ -50,6 +50,12 @@ const Videos = () => {
             left: 0;
             width: 100%;
             height: 100%;
+          }
+          .video-title {
+            background-color: #ffffff;
+            padding: 0.5rem;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
           }
           .video-description {
             background-color: #ffffff;
@@ -63,7 +69,7 @@ const Videos = () => {
         <h2 className="text-bg-warning">My Videos</h2>
         {videos.map((video, index) => (
           <div key={index} style={{ marginBottom: '2rem' }}>
-            <h5>{video.title}</h5>
+            <h5 className="video-title">{video.title}</h5>
             <div className="video-container">
               <iframe
                 src={video.link}
