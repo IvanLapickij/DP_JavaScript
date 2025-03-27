@@ -42,7 +42,7 @@ const Projects = () => {
     },
     {
       title: "Data Mining & Machine Learning",
-      description: "This is my fourth year of Data mining and machine learning project, for which I chose two datasets: “Abalone” and “Employees”. Then I utilized them using linear regression and decision Tree techniques to predict target variables and test the quality of the prediction. I will also present a workflow and documentation supported by the CrispDM data mining process, including images and references.",
+      description: "Data mining and machine learning project, for which I chose two datasets: “Abalone” and “Employees”. Then I utilized them using linear regression and decision Tree techniques to predict target variables and test the quality of the prediction. I will also present a workflow and documentation supported by the CrispDM data mining process, including images and references.",
       link: "https://github.com/IvanLapickij/Data-Mining-Machine-Learning-project",
       image: "https://raw.githubusercontent.com/IvanLapickij/DP_JavaScript/refs/heads/main/src/assets/images/dmml.png",
     },
@@ -65,6 +65,18 @@ const Projects = () => {
       description: "This is my 4th year software security assignment report where I compare and contrast different cryptographic methods to ensure authentication, integrity and confidentiality in client/server settings. ",
       link: "https://github.com/IvanLapickij/Security4_Project",
       image: "https://raw.githubusercontent.com/IvanLapickij/Security4_Project/refs/heads/main/images/security.png",
+    },
+    {
+      title: "BoardGames Club",
+      description: "Project 'BoardGames Club' created using Python and Docker. It is a Cloud Run application that uses CRUD functionality to update members information and draws highest scores chart.",
+      link: "https://github.com/IvanLapickij/BOADRGAMES_IVAN",
+      image: "https://raw.githubusercontent.com/IvanLapickij/BOADRGAMES_IVAN/refs/heads/Ivan-%F0%9F%8C%BF-/img_5.png",
+    },
+    {
+      title: "SilkWeb Atlas",
+      description: "Repository that hosts two Android Studio applications designed for distinct user experiences. Whether you’re fascinated by the world of arachnids or a dedicated anime enthusiast, this suite offers tailored, feature-rich tools to explore your interests in depth.",
+      link: "https://github.com/IvanLapickij/AndroidStudio",
+      image: "https://raw.githubusercontent.com/IvanLapickij/AndroidStudio/refs/heads/main/images/Redback-spider.jpg",
     }
     
     // Add more projects as needed
