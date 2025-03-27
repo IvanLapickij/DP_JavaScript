@@ -41,7 +41,7 @@ const Videos = () => {
           }
           @media (max-width: 768px) {
             .video-container {
-              padding-bottom: 75%; /* Increase height ratio for mobile devices */
+              padding-bottom: 75%; /* Increase height by one third on small screens */
             }
           }
           .video-container iframe {
@@ -50,6 +50,12 @@ const Videos = () => {
             left: 0;
             width: 100%;
             height: 100%;
+          }
+          .video-description {
+            background-color: #ffffff;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 0.5rem;
           }
         `}
       </style>
@@ -67,7 +73,9 @@ const Videos = () => {
                 allowFullScreen
               />
             </div>
-            <p>{video.description}</p>
+            <div className="video-description">
+              <p>{video.description}</p>
+            </div>
           </div>
         ))}
       </div>
