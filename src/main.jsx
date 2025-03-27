@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Cv from './components/Cv';
 import Projects from './components/Projects';
+import Videos from './components/Videos';
 
 function App() {
   const [animationName, setAnimationName] = useState('starryNight');
@@ -23,6 +24,7 @@ function App() {
       <AnimatedBackground animationName={animationName} />
       <Navbar />
       <About />
+      <Videos/>
       <Projects />
       <Cv />
     </>
