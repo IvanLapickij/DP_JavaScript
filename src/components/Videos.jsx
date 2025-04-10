@@ -16,7 +16,7 @@ const Videos = () => {
     {
       title: "Technology Trend 2025",
       description: "Distributed Systems - 4th year project.",
-      link: "https://youtu.be/jFscuEtsXTE", 
+      link: "https://www.youtube.com/embed/jFscuEtsXTE", 
     },
     {
       title: "Youtube Demo 2023",
@@ -56,20 +56,6 @@ const Videos = () => {
       </style>
       <div className="container mt-4" id="Videos">
         <h2 className="text-bg-warning">My Videos</h2>
-        
-        {/* Featured video displayed before all others */}
-        <div style={{ marginBottom: '2rem' }}>
-          <h5 style={textBackgroundStyle} className="video-title">Featured Video</h5>
-          <div className="video-container">
-            <iframe
-              src="https://www.youtube.com/watch?v=wneX5-M07TA"
-              title="Featured Video"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        </div>
 
         {videos.map((video, index) => (
           <div key={index} style={{ marginBottom: '2rem' }}>
