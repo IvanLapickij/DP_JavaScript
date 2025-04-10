@@ -9,24 +9,24 @@ const Videos = () => {
 
   const videos = [
     {
-      title: "MSA promo video 2025",
+      title: "MSA promo video",
       description: "MSA - 4th year project. Injury prevention application.",
-      link: "https://www.youtube.com/watch?v=GkJGlxdCVFE",
+      link: "https://www.youtube.com/embed/GkJGlxdCVFE", 
     },
     {
-      title: "Technology Trend 2024",
-      description: "Distributed Systems application",
-      link: "https://youtu.be/jFscuEtsXTE",
-    },
-    {
-      title: "Youtube Demo 2023",
+      title: "Youtube Demo",
       description: "Youtube archive project overview",
-      link: "https://go.screenpal.com/watch/c0e3YFV4LYa",
+      link: "https://go.screenpal.com/watch/c0e3YFV4LYa", 
     },
     {
-      title: "Jujutsu Demo 2022",
+      title: "Digital Portfolio Demo",
+      description: "Current website overview",
+      link: "https://go.screenpal.com/watch/cZXbFcnVFvt", 
+    },
+    {
+      title: "Jujutsu Demo",
       description: "Mobile application based on Anime Jujutsu Kaisen",
-      link: "https://go.screenpal.com/watch/c0euq4VaQH6",
+      link: "https://go.screenpal.com/watch/c0euq4VaQH6", 
     }
   ];
 
@@ -62,7 +62,7 @@ const Videos = () => {
           <h5 style={textBackgroundStyle} className="video-title">Featured Video</h5>
           <div className="video-container">
             <iframe
-              src="https://www.youtube.com/watch?v=wneX5-M07TA"
+              src="https://www.youtube.com/embed/wneX5-M07TA"
               title="Featured Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
