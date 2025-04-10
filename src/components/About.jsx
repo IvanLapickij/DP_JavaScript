@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import dpd1 from "../assets/images/dpd1.jpg";
+import dpd1 from "../assets/images/poster_presentation1.jpg";
 import dpd2 from "../assets/images/dpd2.jpg";
 import dpd3 from "../assets/images/dpd3.jpg";
 
