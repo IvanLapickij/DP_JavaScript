@@ -9,24 +9,24 @@ const Videos = () => {
 
   const videos = [
     {
-      title: "MSA promo video",
-      description: "MSA - 4th year project",
+      title: "MSA promo video 2025",
+      description: "MSA - 4th year project. Injury prevention application.",
+      link: "https://www.youtube.com/watch?v=GkJGlxdCVFE",
+    },
+    {
+      title: "Technology Trend 2024",
+      description: "Distributed Systems application",
+      link: "https://youtu.be/jFscuEtsXTE",
+    },
+    {
+      title: "Youtube Demo 2023",
+      description: "Youtube archive project overview",
       link: "https://go.screenpal.com/watch/c0e3YFV4LYa",
     },
     {
-      title: "Digital Portfolio Demo",
-      description: "Current website overview",
-      link: "https://go.screenpal.com/watch/cZXbFcnVFvt",
-    },
-    {
-      title: "Jujutsu Demo",
+      title: "Jujutsu Demo 2022",
       description: "Mobile application based on Anime Jujutsu Kaisen",
       link: "https://go.screenpal.com/watch/c0euq4VaQH6",
-    },
-    {
-      title: "Monsters Demo",
-      description: "Monsters project overview",
-      link: "https://go.screenpal.com/watch/c3X00hVUag2",
     }
   ];
 
