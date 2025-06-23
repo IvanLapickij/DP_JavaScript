@@ -29,7 +29,7 @@ const About = () => {
                 Welcome to Ivan's Digital Portfolio!
               </h2>
               <p className="lead">
-                I am a fourth-year student studying Software Design with Artificial Intelligence for Cloud Computing at the Technological University of the Shannon: Midlands Midwest (TUS).
+                I have now completed my fourth year of studies in Software Design with Artificial Intelligence for Cloud Computing at the Technological University of the Shannon: Midlands Midwest (TUS).
               </p>
             </div>
           </div>
