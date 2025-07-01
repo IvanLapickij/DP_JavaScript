@@ -80,8 +80,14 @@ const About = () => {
                 <span className="text-body-secondary">Why I Chose Programming</span>
               </h2>
               <p className="lead">
-              I am driven by curiosity and a passion for constant growth, aiming to sharpen my skills, achieve significant milestones in my career, and make a meaningful impact. I chose programming for its challenges, collaborative nature, and potential for innovation. My vision is to innovate, optimize, and simplify technology so that people can focus on what truly matters in life..
+                I’m driven by curiosity and a passion for continuous growth, aiming to make a meaningful impact through my work.  
+                I chose programming for its challenges, collaborative nature, and its potential to drive innovation and real-world change.  
+                My vision is to simplify and integrate technology in ways that reduce pollution and minimize our impact on the Earth, animals, and ecosystems.  
+                I want to be part of a technological evolution that exists in harmony with nature—creating smarter, cleaner, and more sustainable solutions for a better future.
               </p>
+
+
+            
             </div>
           </div>
           <div className="col-md-5">
