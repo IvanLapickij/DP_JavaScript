@@ -11,7 +11,7 @@ const Videos = () => {
     {
       title: "MSA promo video 2025",
       description: "MSA - 4th year project. Injury prevention application.",
-      link: "https://www.youtube.com/embed/GkJGlxdCVFE", 
+      link: "https://www.youtube.com/watch?v=uSs4UuP_oVU&ab", 
     },
     {
       title: "Technology Trend 2025",
